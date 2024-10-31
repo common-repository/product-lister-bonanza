@@ -1,0 +1,93 @@
+.ced_bonanza_lister_expand_bonanzacat{
+	cursor:pointer;
+}
+.ced_bonanza_lister_cat_ul li {
+  background-color: #989898;
+  border-radius: 2px;
+  color: #fff;
+  margin: 0 0 2px;
+  padding: 5px 10px;
+}
+.ced_bonanza_lister_cat_ul {
+  margin: 0 3px !important;
+}
+.ced_bonanza_lister_cat_activate_ul.ced_bonanza_lister_toggle_div ul.ced_bonanza_lister_cat_ul li {
+  display: block;
+  font-size:14px;
+  
+}
+.ced_bonanza_lister_cat_activate_ul.ced_bonanza_lister_toggle_div ul.ced_bonanza_lister_cat_ul {
+  display: inline-block;
+  vertical-align: top;
+}
+li .ced_bonanza_lister_expand_bonanzacat {
+  margin-left: 20px;
+}
+table.ced_bonanza_lister_return_address tbody tr .ced_bonanza_lister_para > input {
+  display: inline-block;
+  width: auto;
+}
+.ced_ump_circle_loderimg{
+	display : none;
+	float:right;
+}
+.ced_bonanza_lister_template_fetch_loader{
+	display : none;
+	float:right;
+}
+.ced_bonanza_lister_circle_img {
+   
+    width: 30px;
+    height: 30px;
+    margin:-5px auto;
+    -webkit-animation:spin 300ms linear infinite;
+    -moz-animation:spin 300ms linear infinite;
+    animation:spin 300ms linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.ced_bonanza_lister_return {
+  background-color: #fff;
+}
+.ced_bonanza_lister_wrapper:nth-child(2n+1) {
+  background-color: #ececec;
+}
+.ced_bonanza_lister_wrapper {
+  padding: 15px;
+}
+.ced_bonanza_lister_wrapper label {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 230px;
+  text-transform: capitalize;
+  vertical-align: top;
+  width: 100%;
+}
+.ced_bonanza_lister_wrapper .ced_bonanza_lister_button{
+  background-color: #fab418 !important;
+  border: medium none;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #ccc !important;
+  color: #000;
+  padding: 1px 14px;
+  text-transform: uppercase;
+}
+.ced_bonanza_lister_sub_bonanza_wrapper {
+  margin: 10px 0;
+}
+.ced_bonanza_lister_wrapper h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.ced_bonanza_lister_wrapper span {
+  font-size: 15px;
+}
+ #bnz_bulk_act_category ~ .select2.select2-container , #bnz_bulk_act_product_select  ~ .select2.select2-container ,#bnz_bulk_act_product  ~ .select2.select2-container{
+   width: 300px !important;
+}
+.ced_bonanza_lister_category_loader{
+  display: none;
+  float: right;
+}
